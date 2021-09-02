@@ -1,0 +1,16 @@
+cloud:
+  aws:
+    region:
+      static: us-east-2
+      auto: false
+    stack:
+      auto: false
+    credentials:
+      access-key: AKIARBEJ3KM5BTEHVOD2
+      secret-key: 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
+    end-point:
+      uri: https://sqs.us-east-2.amazonaws.com/071156060986/PayloadOrchestrator
+
+
+server:
+  port: 8089
