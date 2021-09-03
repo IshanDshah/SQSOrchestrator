@@ -1,18 +1,15 @@
 package com.sqs.orchestrator;
 
 import jdk.nashorn.internal.objects.annotations.Getter;
+import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 
-
+@AllArgsConstructor
 public class ResponsePayload {
 
     private HttpStatus status;
     private String message;
 
-    public ResponsePayload(HttpStatus status, String message) {
-        this.status = status;
-        this.message = message;
-    }
 
     public HttpStatus getStatus() {
         return status;

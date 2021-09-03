@@ -121,6 +121,7 @@ public class MessageReceiverController {
 
         //System.out.println("Queue Messages: " + message);
         // short polling
+//TOdo Clean up the message
         List<Message> messages = this.amazonSQSAsync.receiveMessage(endPoint).getMessages();
         System.out.println(messages);
 

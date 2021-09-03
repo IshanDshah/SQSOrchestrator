@@ -27,9 +27,6 @@ public class OrchestratorApplication {
 	public static void main(String[] args) throws IOException, ParseException {
 
 
-//
-//		int apiData = getApiData(args[0]);
-//		postApiData(apiData);
 		SpringApplication.run(OrchestratorApplication.class, args);
 	}
 
