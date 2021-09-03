@@ -1,6 +1,7 @@
 package com.sqs.orchestrator.controller;
 
 public class MessagePayload {
+
     private String id;
     private String body;
     private String name;
