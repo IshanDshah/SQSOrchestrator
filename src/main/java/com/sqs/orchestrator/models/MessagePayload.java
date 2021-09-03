@@ -1,4 +1,4 @@
-package com.sqs.orchestrator.controller;
+package com.sqs.orchestrator.models;
 
 public class MessagePayload {
 

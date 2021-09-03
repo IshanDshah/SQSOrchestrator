@@ -1,4 +1,4 @@
-package com.sqs.orchestrator;
+package com.sqs.orchestrator.models;
 
 import jdk.nashorn.internal.objects.annotations.Getter;
 import lombok.AllArgsConstructor;
